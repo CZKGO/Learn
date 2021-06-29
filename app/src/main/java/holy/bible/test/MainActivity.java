@@ -19,9 +19,8 @@ public class MainActivity extends AppCompatActivity {
     class MyHandler extends Handler {
         @Override
         public void handleMessage(Message msg) {
-
             super.handleMessage(msg);
-            onCreate(null);
+
         }
     }
 
