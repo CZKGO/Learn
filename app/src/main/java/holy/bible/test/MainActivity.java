@@ -28,6 +28,9 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+        MyHandler handler = new MyHandler();
+
         Thread a = new Thread() {
             @Override
             public void run() {
@@ -45,6 +48,8 @@ public class MainActivity extends AppCompatActivity {
             }
         };
         a.start();
+
+
 
         Thread b = new Thread() {
             @Override
