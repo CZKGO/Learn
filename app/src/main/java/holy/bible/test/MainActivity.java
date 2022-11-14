@@ -21,6 +21,7 @@ public class MainActivity extends AppCompatActivity {
         public void handleMessage(Message msg) {
             super.handleMessage(msg);
             //Git 测试
+            //git 再次提交测试
         }
     }
 
